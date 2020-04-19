@@ -1,0 +1,31 @@
+{
+  "name": "cto-2020-hw__doc-analize",
+  "version": "1.0.0",
+  "description": "Анализ оглавления документа",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node -r dotenv/config src/index.ts dotenv_config_path=.env",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fosemberg/cto-2020-hw__doc-analize.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fosemberg/cto-2020-hw__doc-analize/issues"
+  },
+  "homepage": "https://github.com/fosemberg/cto-2020-hw__doc-analize#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.6",
+    "ts-node": "^8.8.2",
+    "typescript": "^3.8.3"
+  }
+}
